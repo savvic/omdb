@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg text-center">
+          <hr>
+          <h3>check out our great movies</h3>
+          <hr>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-8">
+          <form action="/" method="POST" id="title-search">
+            <label for="title">search movie by title</label>
+            <input type="text" name="title" value="">
+            <input type="submit" value="search">
+          </form>
+          <hr>
+        </div>
+        <div class="col-md">
+          <a class="btn btn-primary" href="/movies" role="button">all movies</a>
+        </div>
+        <div class="col-md">
+          <a class="btn btn-danger" href="/comments" role="button">all comments</a>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

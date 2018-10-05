@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg text-center">
+          <hr>
+          <h3>check the comments</h3>
+          <hr>
+        </div>
+      </div>
+
+
+      <div class="row justify-content-md-center text-center">
+
+        <div class="col-md-4">
+          <h4>All comments:</h4><br>
+          <ol class="text-left">
+            <% m.forEach(function (item) { %>
+              <li> <%- item.title %> </li>
+            <% }) %>
+          </ol>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
